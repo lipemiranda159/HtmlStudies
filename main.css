@@ -1,0 +1,42 @@
+body{
+    background-image: url("image.jpg");
+    background-size: auto 100vh;
+    height: 100vh;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.menu {
+    background: white;
+}
+
+.subtitle,
+.title {
+    text-align: center;
+    color: white;
+}
+
+.subtitle {
+    font-style: italic; 
+}
+
+div {
+    color: white; 
+}
